@@ -1,0 +1,54 @@
+body{
+    background-image:url("https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.clock{
+  
+    position: absolute;
+    top:5%;
+    left:63%;
+    width: 8.9rem;
+    height: 8.9rem;
+    border-radius: 50%;
+    background-color: white;;
+    border:7px solid black;
+}
+.thumbnail{
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+}
+.hour{
+    background-color: black;
+    width: 26px;
+    height: 2.4px;
+    position: absolute;
+    top: 50%;
+    left: 32.5%;
+     transform: rotate(90deg); 
+    transform-origin: 100%;
+}
+.min{
+    background-color:black;
+    width:40px;
+    height: 2px;
+    position: absolute;
+    top:50%;
+    left:23%;
+    transform:rotate(90deg); 
+    transform-origin: 100%;
+}
+.sec{
+    background-color: red;
+    width: 52px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    transition: 0.05s;
+    transition-timing-function: cubic-bezier(0, 3.34, 0.37, 0.96);
+    transform: rotate(89.9deg);
+    transform-origin: 100%;
+}
